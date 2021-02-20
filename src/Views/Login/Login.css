@@ -21,11 +21,11 @@
 
 .Login .Cover .Title {
     font-size: 1.75rem;
-    color: #0085FF;
+    color: var(--secondary);
 }
 
 .Login .Cover .Title span {
-    color: #23374D;
+    color: var(--primary);
 }
 
 .Login form {
@@ -51,18 +51,18 @@
 .Login form .Form-Field-Wrapper input {
     width: calc(100% - 36px);
     outline: none;
-    border: 2px solid #EEEEEE;
+    border: 2px solid var(--primary-ultra-dim);
     border-radius: 5px;
     padding: 8px 12px;
     margin: 8px 0;
     box-sizing: border-box;
-    background: #EEEEEE;
+    background: var(--primary-ultra-dim);
     font-size: 1.25rem;
-    color: #23374D;
+    color: var(--primary);
 }
 
 .Login form .Form-Field-Wrapper input:focus {
-    border: 2px solid #0085FF;
+    border: 2px solid var(--secondary);
 }
 
 .Login form .Forgot-Password-Container {
@@ -72,22 +72,9 @@
 }
 
 .Login .Forgot-Password-Container span {
-    color: #0085FF;
+    color: var(--secondary);
     cursor: pointer;
 }
-
-.Login form button {
-    outline: none;
-    border: none;
-    border-radius: 20px;
-    padding: 8px 28px;
-    margin: 20px 0;
-    background: #0085FF;
-    font-size: 1.25rem;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
 
 @media (max-width: 500px) {
     .Login form {

@@ -1,0 +1,19 @@
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 24px;
+    box-sizing: border-box;
+}
+
+.Header .Title {
+    font-size: 2rem;
+    font-family: 'Circular Std Medium';
+    color: var(--primary);
+}
+
+.Header img {
+    width: 40px;
+    cursor: pointer;
+}

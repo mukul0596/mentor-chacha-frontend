@@ -1,0 +1,51 @@
+.Profile form .Reset-Password {
+    width: 100%;
+    margin-bottom: 8px;
+    text-align: end;
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+.Profile form .Reset-Password span {
+    cursor: pointer;
+}
+
+.Profile form .Field-Wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
+    box-sizing: border-box;
+}
+
+.Profile form .Field-Wrapper label {
+    width: 100%;
+    margin-bottom: 2px;
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+.Profile form .Field-Wrapper input, .Profile form .Field-Wrapper select {
+    width: 100%;
+    padding: 8px 0;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--primary-extra-dim);
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 1rem;
+    color: var(--primary-dim);
+}
+
+.Profile form .Field-Wrapper input:focus {
+    border-bottom: 2px solid var(--secondary);
+    color: var(--primary);
+}
+
+.Profile form .Field-Wrapper .ReadOnly-Data {
+    width: 100%;
+    color: var(--primary-dim);
+    padding-top: 8px;
+}

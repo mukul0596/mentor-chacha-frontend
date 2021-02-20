@@ -1,3 +1,14 @@
+:root {
+  --primary: #23374D;
+  --primary-dim: #23374DAA;
+  --primary-extra-dim: #23374D44;
+  --primary-ultra-dim: #23374D22;
+  --secondary: #0085FF;
+  --secondary-dim: #85C3FF;
+  --light-grey: #EEEEEE;
+  --white: #FFFFFF;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +21,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  height: 100vh;
+  overflow: hidden;
+}
+
+@font-face {
+  src: url('./Assets//Font/CircularStd-Medium.ttf');
+  font-family: 'Circular Std Medium';
 }

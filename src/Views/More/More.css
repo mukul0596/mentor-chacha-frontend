@@ -1,0 +1,18 @@
+.More .More-Item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 12px 0;
+    border-radius: 10px;
+    background: var(--primary);
+    font-size: 1.3rem;
+    color: var(--secondary-dim);
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.More .More-Item img {
+    width: 30px;
+}

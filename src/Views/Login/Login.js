@@ -4,20 +4,21 @@ import { AuthContext } from '../../Context/AuthContext';
 import logo from '../../Assets/logo.jpg';
 import phoneIcon from '../../Assets/Icons/phone.png';
 import lockIcon from '../../Assets/Icons/lock.png';
+import { toast } from 'react-toastify';
+import Button from '../../Components/Button/Button';
 import './Login.css';
 
 
 const Login = (props) => {
     const [phone, setPhone] = useState('');
     const [password, setPassword] = useState('');
-    const [message, setMessage] = useState('');
 
     const authContext = useContext(AuthContext);
 
     useEffect(() => {
         if (authContext.isAuthenticated) 
             props.history.push('/');
-    });
+    }, []);
 
     const loginUser = (e) => {
         e.preventDefault();
@@ -28,7 +29,7 @@ const Login = (props) => {
                 authContext.setIsAuthenticated(isAuthenticated);
                 props.history.push('/')
             } else 
-                setMessage(message);
+                toast.error(message.msgBody, {position: toast.POSITION.TOP_CENTER, autoClose: 2000});
         })
     }
 
@@ -51,12 +52,8 @@ const Login = (props) => {
                 <div className='Forgot-Password-Container'>
                     <span>Forgot Password?</span>
                 </div>
-                <button>Login</button>
+                <Button style={{margin: '20px 0', fontSize: '1.25rem'}}>Login</Button>
             </form>
-
-            <div>
-                { message.msgBody }
-            </div>
         </div>
     )
 }
