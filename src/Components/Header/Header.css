@@ -17,3 +17,9 @@
     width: 40px;
     cursor: pointer;
 }
+
+@media (max-width: 400px) {
+    .Header .Title {
+        font-size: 1.75rem;
+    }
+}

@@ -5,6 +5,7 @@ import Login from './Views/Login/Login';
 import NavBar from './Components/NavBar/NavBar';
 import More from './Views/More/More';
 import Profile from './Views/Profile/Profile';
+import Recommendation from './Views/Recommendation/Recommendation';
 import { ToastContainer } from 'react-toastify'
 import './App.css';
 import 'react-toastify/dist/ReactToastify.css';
@@ -23,9 +24,11 @@ function App(props) {
         <Route exact path='/login' component={Login} />
         <Route path='/' component={NavBar} />
       </Switch>
+
       <Switch>
         <Route exact path='/more' component={More} />
         <Route exact path='/profile' component={Profile} />
+        <Route exact path='/recommendation' component={Recommendation} />
       </Switch>
       <ToastContainer />
     </div>

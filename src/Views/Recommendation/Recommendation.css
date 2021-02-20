@@ -1,0 +1,79 @@
+.Recommendation .Subject {
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 8px 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--white);
+    background: var(--primary);
+}
+
+.Recommendation .Book-Card-Wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Recommendation .Book-Card-Wrapper .Book-Card {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    padding: 16px;
+    /* box-shadow: 0 8px 24px 0px #23374D25; */
+    background: #23374D11;
+    box-sizing: border-box;
+}
+
+.Recommendation .Book-Card-Wrapper .Book-Card .Book-Detail {
+    width: calc(100% - 108px);
+}
+
+.Recommendation .Book-Card-Wrapper .Book-Card .Book-Detail .Book-Title {
+    font-size: 1rem;
+    color: var(--secondary);
+}
+
+.Recommendation .Book-Card-Wrapper .Book-Card .Book-Detail .Book-Writter {
+    margin-bottom: 12px;
+    font-size: 0.8rem;
+    color: var(--secondary-dim);
+}
+
+.Recommendation .Book-Card-Wrapper .Book-Card .Book-Detail .Book-Publication {
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    color: var(--primary);
+}
+
+.Recommendation .Book-Card-Wrapper .Book-Card .Book-Detail .Book-Publication span {
+    color: var(--secondary);
+}
+
+.Recommendation .Book-Card-Wrapper .Book-Card .Book-Detail .Book-For {
+    font-size: 0.9rem;
+    color: var(--primary);
+}
+
+.Recommendation .Book-Card-Wrapper .Book-Card .Book-Detail .Book-For span {
+    color: var(--secondary);
+}
+
+.Recommendation .Book-Card-Wrapper .Book-Card img {
+    width: 100px;
+    height: 140px;
+}
+
+.Recommendation .Book-Card-Wrapper .Book-Card .Book-Description {
+    width: 100%;
+    margin-top: 12px;
+    font-size: 0.8rem;
+    line-height: 1.3;
+    color: var(--primary-dim);
+}

@@ -6,8 +6,8 @@ import './More.css';
 
 const MORE_ITEMS = [
     {
-        link: '/recommendations',
-        text: 'Recommendations'
+        link: '/recommendation',
+        text: 'Recommendation'
     },
     {
         link: '/blogs&faqs',
