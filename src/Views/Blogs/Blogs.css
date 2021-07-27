@@ -1,0 +1,12 @@
+.Blogs .Blog-Title {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 12px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--secondary);
+    background: var(--primary-ultra-dim);
+    box-sizing: border-box;
+}

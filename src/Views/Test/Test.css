@@ -1,0 +1,174 @@
+.Test {
+    width: 100%;
+    padding-top: 24px;
+}
+
+.Test .Row-Vertical {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.Test .Title {
+    font-size: 1.5rem;
+    color: var(--secondary);
+}
+
+.Test .Date {
+    font-size: 0.9rem;
+    color: var(--primary-dim);
+}
+
+.Test .Row-Vertical .Card {
+    width: calc(33% - 12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 16px 0;
+    background: var(--primary);
+}
+
+.Test .Row-Vertical.Two .Card {
+    width: calc(50% - 12px);
+    background: var(--light-grey);
+}
+
+.Test .Row-Vertical .Card .Title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--secondary-dim);
+}
+
+.Test .Row-Vertical.Two .Card .Title {
+    color: var(--primary);
+}
+
+.Test .Row-Vertical .Card .Value {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    color: var(--light-grey);
+}
+
+.Test .Row-Vertical.Two .Card .Value {
+    color: var(--secondary);
+}
+
+.Test .Row-Vertical .Card .Row-Vertical {
+    margin-bottom: 0;
+}
+
+.Test .Row-Vertical .Card .Row-Vertical .Card {
+    padding: 0;
+    margin-top: 12px;
+}
+
+.Test .Row-Vertical .Card .Row-Vertical .Card .Title {
+    font-size: 0.85rem;
+    color: var(--primary-dim);
+}
+
+.Test .Row-Vertical .Card .Row-Vertical .Card .Value {
+    margin-top: 4px;
+}
+
+.Test .Row-Horizontal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7.5px;
+    padding: 8px 0;
+    margin-bottom: 16px;
+    background: var(--light-grey);
+}
+
+.Test .Row-Horizontal .Row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+
+.Test .Row-Horizontal .Row .Title {
+    font-size: 1rem;
+    color: var(--primary-dim);
+}
+
+.Test .Row-Horizontal .Row .Value {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: var(--primary);
+}
+
+.Test .Row-Horizontal .Title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary);
+}
+.Test .Row-Horizontal .Row-Vertical {
+    margin-bottom: 0;
+}
+
+.Test .Row-Horizontal .Row-Vertical .Card {
+    padding: 0;
+    margin-top: 16px;
+    background: var(--light-grey);
+}
+
+.Test .Row-Horizontal .Row-Vertical .Card .Title {
+    font-size: 0.85rem;
+    color: var(--primary-dim);
+}
+
+.Test .Row-Horizontal .Row-Vertical .Card .Value {
+    margin-top: 4px;
+    color: var(--secondary);
+}
+
+.Test .Card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7.5px;
+    padding: 12px;
+    background: var(--primary);
+    box-sizing: border-box;
+}
+
+.Test .Card.Direct .Title {
+    font-size: 1rem;
+    color: var(--light-grey);
+    margin-bottom: 4px;
+}
+
+.Test .Card.Direct table {
+    width: 100%;
+    font-size: 0.9rem;
+    color: var(--light-grey);
+}
+
+.Test .Card.Direct table thead {
+    font-size: 1rem;
+    color: var(--secondary-dim);
+}
+
+.Test .Card.Direct table td {
+    padding: 8px;
+    border-bottom: 1px solid var(--light-grey);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.Test .Card.Direct table tr td:nth-of-type(1) {
+    text-align: left;
+}

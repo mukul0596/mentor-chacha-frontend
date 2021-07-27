@@ -41,21 +41,7 @@ const Recommendation = () => {
                                                     <div className='Book-Publication'>Publication: <span>{book.publication}</span></div>
                                                     <div className='Book-For'>Exam: <span>{book.for}</span></div>
                                                 </div>
-                                                <img src={`http://localhost:5000/${book.imageUrl}`} alt={book.title} />
-                                                <div className='Book-Description'>{book.description}</div>
-                                            </div>
-                                        ))
-                                    }
-                                    {
-                                        books[subject].map(book => (
-                                            <div className='Book-Card' key={books.title}>
-                                                <div className='Book-Detail'>
-                                                    <div className='Book-Title'>{book.title}</div>
-                                                    <div className='Book-Writter'>~by {book.writter}</div>
-                                                    <div className='Book-Publication'>Publication: <span>{book.publication}</span></div>
-                                                    <div className='Book-For'>Exam: <span>{book.for}</span></div>
-                                                </div>
-                                                <img src={`http://localhost:5000/${book.imageUrl}`} alt={book.title} />
+                                                <img src={`http://localhost:5000/${book.image}`} alt={book.title} />
                                                 <div className='Book-Description'>{book.description}</div>
                                             </div>
                                         ))

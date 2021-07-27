@@ -1,0 +1,37 @@
+.Question-Card {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 16px;
+    border-radius: 7.5px;
+    background: var(--light-grey);
+    box-sizing: border-box;
+}
+
+.Question-Card .Question {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: var(--primary);
+}
+
+.Question-Card .Row {
+    display: flex;
+    align-items: center;
+}
+
+.Question-Card label {
+    color: var(--primary);
+    font-size: 0.9rem;
+}
+
+.Question-Card input, .Question-Card textarea {
+    padding: 6px 8px;
+    margin: 4px 8px;
+    outline: none;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: var(--primary);
+    background: var(--white);
+    box-sizing: border-box;
+    transition: 0.2s;
+}

@@ -14,8 +14,8 @@ const MORE_ITEMS = [
         text: 'Blogs & FAQs'
     },
     {
-        link: '/aboutUs',
-        text: 'About Us'
+        link: '/mockTest',
+        text: 'Mock Test'
     },
     {
         link: '/contactUs',

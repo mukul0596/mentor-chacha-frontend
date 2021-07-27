@@ -1,0 +1,13 @@
+.Blog .Blog-Title {
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+    color: var(--secondary);
+}
+
+.Blog .Blog-Description {
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 1rem;
+    color: var(--primary-dim);
+}

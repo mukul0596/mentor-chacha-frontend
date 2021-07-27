@@ -6,8 +6,8 @@ import circledQIcon from '../../Assets/Icons/circled-q.png';
 import circledQActiveIcon from '../../Assets/Icons/circled-q-active.png';
 import bellIcon from '../../Assets/Icons/bell.png';
 import bellActiveIcon from '../../Assets/Icons/bell-active.png';
-import willpowerIcon from '../../Assets/Icons/willpower.png';
-import willpowerActiveIcon from '../../Assets/Icons/willpower-active.png';
+import swotIcon from '../../Assets/Icons/swot.png';
+import swotActiveIcon from '../../Assets/Icons/swot-active.png';
 import moreIcon from '../../Assets/Icons/more.png';
 import moreActiveIcon from '../../Assets/Icons/more-active.png';
 import './NavBar.css';
@@ -32,10 +32,10 @@ const NAVBAR_DATA = [
         activeIcon: bellActiveIcon
     },
     {
-        link: '/motivation',
-        text: 'Motivation',
-        icon: willpowerIcon,
-        activeIcon: willpowerActiveIcon
+        link: '/swot_analysis',
+        text: 'SWOT Analysis',
+        icon: swotIcon,
+        activeIcon: swotActiveIcon
     },
     {
         link: '/more',

@@ -1,0 +1,57 @@
+.Tests {
+    width: 100%;
+}
+
+.Tests .Test {
+    width: 100%;
+    display: block;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: var(--light-grey);
+    background: var(--primary);
+    box-sizing: border-box;
+}
+
+.Tests .Test .Title {
+    margin-bottom: 4px;
+    font-size: 1.25rem;
+    color: var(--secondary-dim);
+}
+
+.Tests .Test .Date {
+    margin-bottom: 4px;
+    font-size: 0.75rem;
+    color: var(--light-grey);
+}
+
+.Tests .Test .Row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.Tests .Test .Column-Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tests .Test .Label {
+    margin-bottom: 2px;
+    color: var(--secondary-dim);
+}
+
+.Tests .Test .Row-Wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.Tests .Test .Subjects span {
+    margin-left: 16px;
+}

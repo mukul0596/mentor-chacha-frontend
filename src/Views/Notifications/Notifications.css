@@ -1,0 +1,28 @@
+.Notifications .Notification-Title {
+    position: relative;
+    width: 100%;
+    display: block;
+    border: 1px solid var(--primary-dim);
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 12px;
+    padding-bottom: 32px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--primary);
+    box-sizing: border-box;
+}
+
+.Notifications .Notification-Title.Read {
+    border-color: transparent;
+    background: var(--primary-ultra-dim);
+}
+
+.Notifications .Notification-Title .Time {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 12px;
+    font-size: 0.6rem;
+    color: var(--primary-dim);
+}
